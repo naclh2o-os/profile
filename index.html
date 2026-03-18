@@ -1,1 +1,136 @@
-おけだ
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shintaro Okeda - Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+      color: #fff;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      font-weight: 500;
+      border-left: 4px solid #00d4ff;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+      padding-left: 1rem;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #00d4ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      opacity: 0.6;
+    }
+
+    /* animation */
+    header h1 {
+      animation: fadeIn 1.5s ease;
+    }
+
+    header p {
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>おけだ / Shintaro Okeda</h1>
+  <p>Welcome to my stylish personal webpage ✨</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>こんにちは！おけだです。</p>
+  <p>Hello! My name is Shintaro Okeda. I am a student from Japan.</p>
+</section>
+
+<section>
+  <h2>Hobbies</h2>
+  <ul>
+    <li>スポーツ / Sports</li>
+    <li>音楽 / Music</li>
+    <li>読書 / Reading</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Message</h2>
+  <p>これからいろいろなことに挑戦していきたいです。</p>
+  <p>I want to challenge myself with many new things!</p>
+</section>
+
+<footer>
+  <p>© 2026 Shintaro Okeda</p>
+</footer>
+
+</body>
+</html>
+
